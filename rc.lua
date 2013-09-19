@@ -42,7 +42,7 @@ end
 
 config_dir = ("/home/ilya/.config/awesome/")
 themes_dir = (config_dir .. "/themes")
-beautiful.init("/home/ilya/.config/awesome/themes/default/theme_new.lua")
+beautiful.init(themes_dir .. "/pwrsolr/theme.lua")
 
 
 -- This is used later as the default terminal and editor to run.
