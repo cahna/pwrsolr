@@ -1,5 +1,6 @@
     --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 --{{  Awesome Powerarrow theme by Rom Ockee - based on Awesome Zenburn and Need_Aspirin themes }}---
+--{{  Modified by eco32i to use Solarized colors (http://ethanschoonover.com/solarized)        }}---
     --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
 green = "#859900"
@@ -96,12 +97,12 @@ theme.menu_height       = "24"
 theme.menu_width        = "140"
 
 --{{ Icon dirs -----------------------------------------------------------------------------------------------
-icons_dir       = themes_dir .. "/pwrsolr/icons/pwrsolr"
-apps_dir        = themes_dir .. "/pwrsolr/apps
-layout_dir      = themes_dir .. "/pwrsolr/layots"
-taglist_dir     = themes_dir .. "/pwrsolr/taglist"
-tasklist_dir    = themes_dir .. "/pwrsolr/tasklist"
-titlebar_dir    = themes_dir .. "/pwrsolr/titlebar"
+icons_dir       = (themes_dir .. "/pwrsolr/icons/pwrsolr")
+apps_dir        = (themes_dir .. "/pwrsolr/apps")
+layout_dir      = (themes_dir .. "/pwrsolr/layouts")
+taglist_dir     = (themes_dir .. "/pwrsolr/taglist")
+tasklist_dir    = (themes_dir .. "/pwrsolr/tasklist")
+titlebar_dir    = (themes_dir .. "/pwrsolr/titlebar")
 
 --{{--- Theme icons ------------------------------------------------------------------------------------------
 
