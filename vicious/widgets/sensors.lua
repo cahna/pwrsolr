@@ -39,7 +39,20 @@ for line in f:lines() do
 coretwo = line
 end
 
-return "<span background='#4B3B51' font='Terminus 12'> <span font='Terminus 9' background='#4B3B51' color='#CCCCCC'>%d° <span color='#888888'>·</span> %d° </span></span>" % { coreone, coretwo }
+f = io.popen("sensors | awk '/Core 2/ {print($3)}' | awk -F '[+.]' '{print($2)}'")
+
+for line in f:lines() do
+corethree = line
+end
+
+f = io.popen("sensors | awk '/Core 3/ {print($3)}' | awk -F '[+.]' '{print($2)}'")
+
+for line in f:lines() do
+corefour = line
+end
+
+
+return "<span background='#586e75' font='Terminus 12'> <span font='Terminus 9' background='#586e75' color='#eee8d5'>%d° · %d° · %d° · %d° </span></span>" % { coreone, coretwo, corethree, corefour }
 
 end
 -- }}}
