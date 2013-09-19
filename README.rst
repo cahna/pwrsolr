@@ -27,5 +27,5 @@ configuration directory, i.e. ``/home/<user>/.config/awesome``
 
 Screenshot (clean)
 ---------
-.. image:: https://raw.github.com/romockee/powerarrow/master/screenshots/screen-21-50-15.png
+.. image:: https://raw.github.com/eco32i/pwrsolr/master/screenshots/pwrsolr-clean.png
 
