@@ -165,6 +165,9 @@ theme.arr_green_base2                           = icons_dir .. "/arr_green_base2
 theme.widget_gmail                              = icons_dir .. "/gmail.png"
 
 --{{--- User icons ------------------------------------------------------------------------------------------
+theme.hibernate_icon            = apps_dir .. "/gnome-session-hibernate.png"
+theme.suspend_icon              = apps_dir .. "/gnome-session-suspend1.png"
+theme.halt_icon                 = apps_dir .. "/gnome-session-halt1.png"
 
 theme.htop_icon                 = apps_dir .. "/system-monitor.png"
 theme.vlc_icon                  = apps_dir .. "/vlc.png"

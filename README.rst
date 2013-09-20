@@ -1,4 +1,4 @@
-PwrSolr: Awesome Powerarrow theme with Solarized colors
+git PwrSolr: Awesome Powerarrow theme with Solarized colors
 ---------
 
 The following modification to the original theme were made:

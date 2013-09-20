@@ -89,9 +89,10 @@ end
 myawesomemenu = {
   {"edit config",           "terminal -x vim /home/ilya/.config/awesome/rc.lua"},
   {"edit theme",            "terminal -x vim /home/ilya/.config/awesome/themes/powerarrow/theme.lua"},
-  {"hibernate",             "sudo pm-hibernate"},
+  {"hibernate",             "sudo pm-hibernate", beautiful.hibernate_icon},
+  {"suspend",               "sudo pm-suspend", beautiful.suspend_icon},
   {"restart",               awesome.restart },
-  {"reboot",                "sudo reboot"},
+  {"reboot",                "sudo reboot", beautiful.halt_icon},
   {"quit",                  awesome.quit }
 }
 
